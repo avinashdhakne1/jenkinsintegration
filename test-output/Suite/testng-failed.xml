@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="jenkins.MyProject">
+        <methods>
+          <include name="logintest"/>
+          <include name="logouttest"/>
+          <include name="openbrowser"/>
+          <include name="openurl"/>
+        </methods>
+      </class> <!-- jenkins.MyProject -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T12:31:59 IST" name="Default suite" finished-at="2022-02-08T12:33:47 IST" duration-ms="108097">
+    <groups>
+    </groups>
+    <test started-at="2022-02-08T12:31:59 IST" name="Default test" finished-at="2022-02-08T12:33:47 IST" duration-ms="108097">
+      <class name="jenkins.MyProject">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:30:00 IST" name="openbrowser" finished-at="2022-02-08T12:31:59 IST" duration-ms="119454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:31:59 IST" name="openurl" finished-at="2022-02-08T12:32:47 IST" duration-ms="47555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="windowmaximize()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:32:47 IST" name="windowmaximize" finished-at="2022-02-08T12:32:51 IST" duration-ms="3817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowmaximize -->
+        <test-method is-config="true" signature="deletecookies()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:32:51 IST" name="deletecookies" finished-at="2022-02-08T12:32:55 IST" duration-ms="4311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecookies -->
+        <test-method signature="logintest()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:32:55 IST" name="logintest" finished-at="2022-02-08T12:33:22 IST" duration-ms="27277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="screenshot()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:33:22 IST" name="screenshot" finished-at="2022-02-08T12:33:25 IST" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="deletecookies()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:33:26 IST" name="deletecookies" finished-at="2022-02-08T12:33:26 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecookies -->
+        <test-method signature="logouttest()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:33:26 IST" name="logouttest" finished-at="2022-02-08T12:33:37 IST" depends-on-methods="jenkins.MyProject.logintest" duration-ms="11383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+        <test-method is-config="true" signature="screenshot()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:33:37 IST" name="screenshot" finished-at="2022-02-08T12:33:43 IST" duration-ms="5296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="deleteallcookies()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:33:43 IST" name="deleteallcookies" finished-at="2022-02-08T12:33:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteallcookies -->
+        <test-method is-config="true" signature="closedbconnection()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:33:43 IST" name="closedbconnection" finished-at="2022-02-08T12:33:47 IST" duration-ms="4412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbconnection -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:jenkins.MyProject@223191a6]" started-at="2022-02-08T12:33:48 IST" name="closebrowser" finished-at="2022-02-08T12:34:25 IST" duration-ms="37659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- jenkins.MyProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
